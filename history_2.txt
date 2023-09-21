@@ -1,0 +1,16 @@
+  170  git branch -d ma-branche
+  171  git checkout -b ma-nouvelle-branche
+  172  touch oui non peut-être
+  173  git add oui
+  174  git commit -m "add oui"
+  175  git add non
+  176  git commit -m "add non"
+  177  git add peut-être
+  178  git commit -m "add peut-être"
+  179  git push -u origin HEAD
+  180  git checkout master
+  181  git merge ma-nouvelle-branche
+  182  git checkout main
+  183  git merge ma-nouvelle-branche
+  184  git push
+  185  history
