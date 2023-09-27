@@ -1,0 +1,16 @@
+  224  git branch
+  225  git checkout main
+  226  git add -A
+  227  git status
+  228  git commit -m "Modify bonjour.txt"
+  229  git checkout main
+  230  git checkout -b salut
+  231  touch azerty.txt
+  232  git status
+  233  touch .gitignore
+  234  echo azerty.txt >> .gitignore
+  235  cat .gitignore
+  236  git status
+  237  git status
+  238  pwd
+  239  history
